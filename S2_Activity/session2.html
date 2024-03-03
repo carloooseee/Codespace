@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 2  JUAN CARLOS S. LARAN</title>
+</head>
+<style>
+    html{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+        margin: 0;
+    }
+    table, td, th{
+        padding: 10px;
+        border: 1px solid;
+        border-collapse: collapse;
+        transition: all 0.5s ease-in-out;
+    }
+    thead{
+        background-image: linear-gradient(to right, rgb(66, 133, 66) 1%, rgb(255, 255, 255));
+    }
+    td:hover, td:hover{
+        padding: 25px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+    .head{
+        width: 100%;
+        background-color: rgb(1, 39, 1);
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .dpost{
+        border: 2px solid;
+    }
+</style>
+<body>
+    <header class="head">
+        <nav>
+            <img src="https://www.dlsud.edu.ph/images/about-logo.png" alt="logo" height="100px">
+            <h1>DLSU-d Schoolbook</h1>
+        </nav>
+    </header>
+    <div class="dpost">
+        <h1>Daily Post <span style="color: red;">( EMERGENCY )</span></h1>
+        <p>
+            <!--i-Hold mo ung abbr-->
+            The <abbr title="De Lassale University Dasmarinas">DLSU-D</abbr> was bombed in January 5, 2024
+        </p>
+        <section>
+            <h5>click the <a href="https://www.google.com/search?q=bomb+gif&rlz=1C1PASC_enPH1069PH1069&oq=bomb+gid&aqs=chrome.1.69i57j0i10i512l9.2893j1j9&sourceid=chrome&ie=UTF-8#vhid=PeQAAyilXaVJ5M&vssid=l">link</a> to learn more!</h5>
+        </section>
+        <table> 
+            <caption>
+                Survivor of DLSU-D Bombing 2024
+            </caption>
+            <thead>
+                <th>Name</th>
+                <th>How did this dude Survive</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td rowspan="2">Hidden under ULS Structure</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Laran</td>
+                    <td>Saved by fireman</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Random Cat</td>
+                    <td>Saved by Kuya <b>J</b></td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Areas affected of Blast radius</h3>
+        <!-- ung "reversed" pwede start="3"-->
+        <ol type="a" start="3" reversed>
+            <li>MTH Building</li>
+            <li>JFH Building</li>
+            <li>ICT Building</li>
+            <li>Food Square</li>
+            <li>ULS Building</li>
+            <li>SHS Building</li>
+            <li>RCC Office</li>
+        </ol>
+        <h3>Live image Update in DLSU-D Affected areas</h3>
+        <img src="https://www.dlsud.edu.ph/news/assets/img/inside-photo/2020/fire2.jpg" alt="dlsu-d" width="500px">
+        <h3>Donate and Support survivors of DLSU-D Bombing</h3>
+        <form>
+            <fieldset style="text-align: right;">
+                <legend>DLSU-Donate</legend>
+                <label for="payment">Payment Type: </label>
+                <select name="payment" id="#" style="padding: 5px;">
+                    <option hidden>please select payment type</option>
+                    <option value="gcash">Gcash</option>
+                    <option value="bpi">BPI</option>
+                    <option value="bdo">BDO</option>
+                    <option value="metro">Metrobank</option>
+                </select>
+                <br>
+                <label for="contact">Contact Number/Email: </label>
+                <input type="text" name="contact" style="padding: 5px;" placeholder="Enter number or email">
+                <br>
+                <label for="amount">Enter amount to Donate: </label>
+                <input type="number" name="amount" style="padding: 5px;" placeholder="Enter amount">
+            </fieldset>
+        </form>
+    </div>
+    <div class="dcomment">
+        <h1>Comments</h1>
+    </div>
+</body>
+</html>
