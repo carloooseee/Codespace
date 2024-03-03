@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2em;
+}
+section{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    height: 7em;
+}
+.box{
+    background-color: rgb(255, 185, 74);
+    height: 90px;
+    width: 90px;
+    transition: all .3s ease-in-out;
+}
+.box:hover{
+    background-color: rgb(193, 119, 0);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contaier5-left{
+    height: 7em;
+    width: 17%;
+    border-right: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contaier5-right{
+    height: 7em;
+    width: 83%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
